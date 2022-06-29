@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+
+    &__logo{
+        width: 6rem;
+    }
+
+    &__btn{
+        color: $lightBlue;
+        background-color: white;
+        width: 12rem;
+        height: 4rem;
+        border: 1px solid $lightBlue;
+        border-radius: 3.125rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+    }
+}
