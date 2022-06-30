@@ -8,7 +8,6 @@
     &__newsletter {   
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
         width: 50%;     
         justify-content: center;
         align-items: center;   
@@ -46,8 +45,26 @@
     }
 
     &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 50%;
         background-color: transparent;
+
+        &-title{
+            color: black;
+            font-weight: 300;
+            font-size: 20px;
+            font-family: 'inter';
+            margin-bottom: 1rem;
+        }
+        &-element{
+            color: gray;
+            font-family: "inter";
+            font-weight: 300;
+            font-size: 16px;
+        }
     }
 }
 
