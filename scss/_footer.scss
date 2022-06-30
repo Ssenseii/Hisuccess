@@ -52,6 +52,7 @@
         align-items: center;
         width: 50%;
         background-color: transparent;
+        padding-top: 3rem;
 
         &-title{
             color: black;
@@ -165,6 +166,8 @@
                 width: 100%;
                 height: 2.75rem;
                 border-radius: 5px;
+                border: 1px solid gray;
+                margin-bottom: 0.5rem;
             }
     
             &-action{
@@ -172,7 +175,7 @@
                 height: 2.75rem;
                 padding: 0.5rem;
                 border-radius: 5px;
-                border: none;
+                border: 1px solid hsl(120, 65%, 45%);
                 background-color: hsl(120, 78%, 59%);
                 margin-bottom: 2rem;
             }
@@ -180,6 +183,8 @@
     }
 
     &__contact {
+
+        padding-bottom: 2rem;
 
         &-title{
             color: black;
@@ -193,6 +198,7 @@
             font-family: "inter";
             font-weight: 300;
             font-size: 16px;
+            text-align: center;
         }
     }
     }
