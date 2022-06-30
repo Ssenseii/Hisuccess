@@ -17,7 +17,6 @@
         align-self: center;
         width: 30rem;
         margin-left: 16rem;
-        border-radius: 25px;
         top: 5rem;
     }
 
@@ -188,11 +187,9 @@
             margin-top: 5rem;
             margin-bottom: 2rem;
             font-size: 36px;
-            color: $Blue;
         }
 
         &-description{
-            color: gray;
             font-size: 20px;
             line-height: 36px;
             padding-right: 16rem;
@@ -244,4 +241,196 @@
     }
 
     
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .section1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+
+        &__img {
+        display: none;
+        width: 100%;
+        margin-left: 0;
+        }
+
+        &__text{
+            padding: 2rem;
+            
+            &-title{
+                order: 1;
+                font-size: 32px;
+                padding: 0;
+            }
+
+            &-description{
+                order: 3;
+                font-size: 16px;
+                padding: 1rem;
+            }
+
+            &-button{
+                order: 2;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        padding: 8rem;
+        padding-bottom: 4rem;
+
+        &__element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: none;
+        margin-bottom: 2.5rem;
+        border-bottom: 1px solid blue;
+        padding-bottom: 2.5rem;
+
+        &:last-child{
+            border-bottom: transparent;
+        }
+
+        &-title{
+            margin-bottom: 0;
+        }
+
+        &-sub{
+            padding: 1rem;
+        }
+    }
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 1rem;
+
+    &__img{
+        display: none;
+    }
+
+    &__text{
+        margin: 0;
+        background: linear-gradient(to right, #4e54c8, #8f94fb);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-left: 0;
+        padding: 2rem;
+        border-radius: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        
+        &-title{
+            
+            font-family: 'inter', sans-serif;
+            font-weight: 300;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: 36px;
+        }
+
+        &-description{
+            font-size: 20px;
+            line-height: 36px;
+            padding-right: 0;
+        }
+    }
+    }
+
+    .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 1rem;
+
+    &__img{
+        display: none;
+    }
+
+    &__text{
+        margin: 0;
+        background: linear-gradient(to right, #74ebd5, #acb6e5);        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-left: 0;
+        padding: 2rem;
+        border-radius: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        
+        &-title{
+            
+            font-family: 'inter', sans-serif;
+            font-weight: 300;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: 36px;
+        }
+
+        &-description{
+            font-size: 20px;
+            line-height: 36px;
+            padding-right: 0;
+        }
+    }
+    }
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 1rem;
+
+    &__img{
+        display: none;
+    }
+
+    &__text{
+        margin: 0;
+        background: linear-gradient(to right, #396afc, #2948ff);
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-left: 0;
+        padding: 2rem;
+        border-radius: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        
+        &-title{
+            
+            font-family: 'inter', sans-serif;
+            font-weight: 300;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: 36px;
+        }
+
+        &-description{
+            font-size: 20px;
+            line-height: 36px;
+            padding-right: 0;
+        }
+    }
+    }
 }

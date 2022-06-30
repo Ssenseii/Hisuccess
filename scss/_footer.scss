@@ -1,4 +1,5 @@
 .footer {
+    
     position: relative;
     display: flex;
     flex-direction: row;
@@ -79,11 +80,121 @@
     &__svg{
         position: relative;
         display: block;
-        width: calc(144% + 1.3px);
+        width: 100%;
         height: 211px;
 
         &-path{
             fill: #ecf9ff;
         }
     }
+}
+
+.wave2{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+
+    &__svg{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+        
+        &-shape-fill {
+        fill: #fff;
+        }
+    }
+
+}
+
+.visibility{
+    visibility: visible;
+}
+
+.visibility2{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .visibility{
+        visibility: hidden;
+    }
+
+    .visibility2{
+        visibility: visible;
+    }
+
+
+    .footer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-color: #c6e9fa;
+
+    &__newsletter {   
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        
+        &-title{
+            padding-top: 12rem;
+            font-family: "inter";
+        }
+        
+        &-form{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        padding-top: 5rem;
+
+            &-input{
+                width: 100%;
+                height: 2.75rem;
+                border-radius: 5px;
+            }
+    
+            &-action{
+                width: 50%;
+                height: 2.75rem;
+                padding: 0.5rem;
+                border-radius: 5px;
+                border: none;
+                background-color: hsl(120, 78%, 59%);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__contact {
+
+        &-title{
+            color: black;
+            font-weight: 300;
+            font-size: 20px;
+            font-family: 'inter';
+            margin-bottom: 1rem;
+        }
+        &-element{
+            color: gray;
+            font-family: "inter";
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+    }
+
 }
