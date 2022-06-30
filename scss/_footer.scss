@@ -1,0 +1,72 @@
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 24rem;
+    background-color: #c6e9fa;
+
+    &__newsletter {   
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        width: 50%;     
+        justify-content: center;
+        align-items: center;   
+        
+        &-title{
+            padding-top: 4rem;
+            font-family: "inter";
+        }
+        
+        &-form{
+        position: relative;
+        display: flex;
+        background-color: transparent;
+        padding-top: 2rem;
+
+            &-input{
+                width: 16rem;
+                height: 2.75rem;
+                padding: 0.5rem;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border: none;
+            }
+    
+            &-action{
+                width: 5rem;
+                height: 2.75rem;
+                padding: 0.5rem;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border: none;
+                background-color: hsl(120, 78%, 59%);
+            }
+        }
+    }
+
+    &__contact {
+        width: 50%;
+        background-color: transparent;
+    }
+}
+
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    &__svg{
+        position: relative;
+        display: block;
+        width: calc(144% + 1.3px);
+        height: 211px;
+
+        &-path{
+            fill: #ecf9ff;
+        }
+    }
+}
