@@ -1,12 +1,19 @@
 .header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem 5rem;
 
     &__logo{
         width: 6rem;
-        margin-right: 80rem;
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
     }
 
     &__btn{
@@ -35,7 +42,7 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1500px) {
     
     .header{
         display: flex;
@@ -52,7 +59,7 @@
 
         &__btn{
             margin: 0;
-            width: 8rem;
+            width: 6rem;
             height: 3rem;
             
             font-size: 16px;
@@ -64,3 +71,5 @@
     }
 
 }
+
+
