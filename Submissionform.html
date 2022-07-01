@@ -4,6 +4,24 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="images/favicon_io/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicon_io/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="images/favicon_io/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <title>Submission Form</title>
         <link rel="stylesheet" href="dist/SF-style.css" />
     </head>
@@ -18,7 +36,7 @@
                 </div>
                 <div class="SFmain__element">
                     <p class="SFmain__element-title">Email Address</p>
-                    <input placeholder="Email" type="email" class="SFmain__element-input">
+                    <input type="email" class="SFmain__element-input">
                 </div>
                 <div class="SFmain__element">
                     <p class="SFmain__element-title">Phone Number</p>
@@ -28,6 +46,45 @@
                     <p class="SFmain__element-title">Education Level</p>
                     <input type="text" class="SFmain__element-input">
                 </div>
+
+                <p class="SFmain__checkboxes-title">What country interests you?</p>
+
+                <div class="SFmain__checkboxes">
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">US</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">GB</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">CA</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">FR</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">PL</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">UA</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">TR</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                    <div class="SFmain__checkboxes-element">
+                        <p class="SFmain__checkboxes-element-country">CN</p>
+                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    </div>
+                </div>
+
+                <button class="SFmain__action" type="submit">Submit</button>
             </div>
         </main>
     </body>

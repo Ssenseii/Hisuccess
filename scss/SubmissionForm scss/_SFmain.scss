@@ -24,9 +24,9 @@
     &__element{
         margin-bottom: 2rem;
         z-index: 2; 
-        
+
         &-title{
-            margin-bottom: 2px;
+            margin-bottom: 4px;
 
         }
 
@@ -44,5 +44,34 @@
             }
 
         }
+
+    }
+
+    &__checkboxes{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &-title{
+            margin-bottom: 2rem;
+        }
+
+        &-element{
+            display: flex;
+            width: 50px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__action{
+        width: 16rem;
+        height: 3rem;
+        border-radius: 5px;
+        background-color: rgb(49, 232, 49);
     }
 }
