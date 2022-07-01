@@ -1,0 +1,11 @@
+.SFheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 25rem;
+    left: 20rem;
+    width: 67%;
+    z-index: 1;
+}

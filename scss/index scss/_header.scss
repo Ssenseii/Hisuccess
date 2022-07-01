@@ -26,6 +26,12 @@
         font-family: 'Inter', sans-serif;
         font-size: 1rem;
         margin-right: 2rem;
+
+        &:hover{
+            cursor: pointer;
+            border: 2px solid $lightBlue;
+            box-shadow: 5px 5px 13px -10px #000000;
+        }
     }
 
     &__social{
@@ -34,6 +40,10 @@
             margin-right: 1rem;
             border: 1px solid transparent;
             background-color: transparent;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
         
         &-icon{
@@ -63,6 +73,7 @@
             height: 3rem;
             
             font-size: 16px;
+
         }
 
         &__social-btn{
