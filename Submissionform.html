@@ -23,9 +23,25 @@
         />
         <link rel="manifest" href="/site.webmanifest" />
         <title>Submission Form</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="dist/style.css" />
     </head>
-    <body>
+
+    <body class="BG">
         <header class="header">
             <a href="index.html">
                 <img
@@ -69,67 +85,97 @@
         </header>
 
         <!-- main -->
-
-
         <main class="form">
-            <div class="Form__side1">
-                <h1 class="SFmain__title">Get In Touch.</h1>
-                <div class="SFmain__element">
-                    <p class="SFmain__element-title">Name</p>
-                    <input type="text" class="SFmain__element-input">
+            <div class="form__side1">
+                <h1 class="form__side1-title">Get In Touch.</h1>
+                <div class="form__side1-element">
+                    <p class="form__side1-element-title">Name</p>
+                    <input type="text" class="form__side1-element-input" />
                 </div>
-                <div class="SFmain__element">
-                    <p class="SFmain__element-title">Email Address</p>
-                    <input type="email" class="SFmain__element-input">
+                <div class="form__side1-element">
+                    <p class="form__side1-element-title">Email Address</p>
+                    <input type="email" class="form__side1-element-input" />
                 </div>
-                <div class="SFmain__element">
-                    <p class="SFmain__element-title">Phone Number</p>
-                    <input type="text" class="SFmain__element-input">
+                <div class="form__side1-element">
+                    <p class="form__side1-element-title">Phone Number</p>
+                    <input type="text" class="form__side1-element-input" />
                 </div>
-                <div class="SFmain__element">
-                    <p class="SFmain__element-title">Education Level</p>
-                    <input type="text" class="SFmain__element-input">
+                <div class="form__side1-element">
+                    <p class="form__side1-element-title">Education Level</p>
+                    <input type="text" class="form__side1-element-input" />
                 </div>
             </div>
 
             <div class="form__side2">
-                <p class="SFmain__checkboxes-title">What country interests you?</p>
-                <div class="SFmain__checkboxes">
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">US</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                <p class="form__side2-checkboxes-title">
+                    What country interests you?
+                </p>
+                <div class="form__side2-checkboxes">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">US</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">GB</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">GB</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">CA</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">CA</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">FR</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">FR</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">PL</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">PL</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">UA</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">UA</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">TR</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">TR</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
-                    <div class="SFmain__checkboxes-element">
-                        <p class="SFmain__checkboxes-element-country">CN</p>
-                        <input class="SFmain__checkboxes-element-input" type="Checkbox">
+                    <div class="form__side2-checkboxes-element">
+                        <p class="form__side2-checkboxes-element-country">CN</p>
+                        <input
+                            class="form__side2-checkboxes-element-input"
+                            type="Checkbox"
+                        />
                     </div>
+                </div>
+
+                <div class="form__side2-major">
+                    <p class="form__side2-major-title">What do you want to major in?</p>
+                    <input class="form__side2-major-input" type="text" placeholder="Biology, computer science...">
+                </div>
             </div>
-            
-                <button class="SFmain__action" type="submit">Submit</button>
+            <div class="form__action">
+                <button class="form__action-button" type="submit">Submit</button>
             </div>
         </main>
     </body>

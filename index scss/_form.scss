@@ -1,0 +1,89 @@
+.BG{
+    background: linear-gradient(90deg, rgba(20,110,198,0.21332282913165268) 0%, rgba(35,195,255,0.21332282913165268) 46%, rgba(20,110,198,0.21332282913165268) 100%);
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    background-color: white;
+
+    
+    &__side1{
+        
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 2rem 4rem;
+
+        &-title{
+            font-family: 'Work Sans', sans-serif;
+            margin-bottom: 2rem;
+        }
+
+        &-element{
+            font-family: 'Raleway', sans-serif;
+            margin-bottom: 1rem;
+
+            &-title{
+                margin-bottom: 0.5rem;
+            }
+
+            &-input{
+                width: 16rem;
+                height: 2rem;
+
+                padding: 1rem;
+
+                border: none;
+                background-color: rgba(234, 229, 229, 0.961);
+            }
+        }
+    }
+
+    &__side2{
+        margin: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+
+        font-family: 'Raleway', sans-serif;
+
+
+        &-checkboxes{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 2rem;
+            &-title{
+                margin-bottom: 1rem;
+            }
+            &-element{
+                margin-right: 1rem;
+            }
+        }
+
+        &-major{
+            &-title{
+                margin-bottom: 1rem;
+            }
+
+            &-input{
+                width: 16rem;
+                height: 2rem;
+
+                padding: 1rem;
+
+                border: none;
+                background-color: rgba(234, 229, 229, 0.961);
+
+                &::placeholder{
+                    color: rgb(186, 185, 185);
+                }
+            }
+        }
+    }
+
+    &__action{
+        width: 20%;
+    }
+}
