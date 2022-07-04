@@ -23,12 +23,56 @@
         />
         <link rel="manifest" href="/site.webmanifest" />
         <title>Submission Form</title>
-        <link rel="stylesheet" href="dist/SF-style.css" />
+        <link rel="stylesheet" href="dist/style.css" />
     </head>
     <body>
+        <header class="header">
+            <a href="index.html">
+                <img
+                    class="header__logo"
+                    src="images/headerLogo.png"
+                    alt="Logo"
+                    class="header__logo"
+                />
+            </a>
+            <div class="header__buttons">
+                <button class="header__btn">contact us</button>
+                <a href="https://m.facebook.com/Hisuccess.pro/" target="_blank">
+                    <button class="header__social-btn">
+                        <img
+                            class="header__social-icon"
+                            src="images/social-icons/facebook.svg"
+                            alt="facebook"
+                        />
+                    </button>
+                </a>
+                <a
+                    href="https://instagram.com/hisuccess.pro?igshid=YmMyMTA2M2Y="
+                    target="_blank"
+                >
+                    <button class="header__social-btn">
+                        <img
+                            class="header__social-icon"
+                            src="images/social-icons/instagram.svg"
+                            alt="instagram"
+                        />
+                    </button>
+                </a>
+                <button class="header__social-btn">
+                    <img
+                        class="header__social-icon"
+                        src="images/social-icons/whatsapp.svg"
+                        alt=""
+                    />
+                </button>
+            </div>
+        </header>
+
+        <!-- main -->
+
+
         <main class="form">
-            <img class="SFheader" src="images/submission form header.png" alt="header">
-            <div class="SFmain">
+            <div class="Form__side1">
                 <h1 class="SFmain__title">Get In Touch.</h1>
                 <div class="SFmain__element">
                     <p class="SFmain__element-title">Name</p>
@@ -46,9 +90,10 @@
                     <p class="SFmain__element-title">Education Level</p>
                     <input type="text" class="SFmain__element-input">
                 </div>
+            </div>
 
+            <div class="form__side2">
                 <p class="SFmain__checkboxes-title">What country interests you?</p>
-
                 <div class="SFmain__checkboxes">
                     <div class="SFmain__checkboxes-element">
                         <p class="SFmain__checkboxes-element-country">US</p>
@@ -82,8 +127,8 @@
                         <p class="SFmain__checkboxes-element-country">CN</p>
                         <input class="SFmain__checkboxes-element-input" type="Checkbox">
                     </div>
-                </div>
-
+            </div>
+            
                 <button class="SFmain__action" type="submit">Submit</button>
             </div>
         </main>

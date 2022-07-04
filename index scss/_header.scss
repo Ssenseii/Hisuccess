@@ -32,6 +32,10 @@
             border: 2px solid $lightBlue;
             box-shadow: 5px 5px 13px -10px #000000;
         }
+
+        &:active{
+            border: none;
+        }
     }
 
     &__social{

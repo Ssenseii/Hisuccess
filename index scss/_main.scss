@@ -52,10 +52,10 @@
             &-span {
                 font-weight: 700;
                 background-image: 
-                linear-gradient(to top, transparent, #14D8EE),
-                linear-gradient(to right, #1B74D3, #59A3F1, blue);
+                linear-gradient(to top, transparent, #18bdd0),
+                linear-gradient(to right, #0127c0, #59A3F1, rgb(13, 13, 204));
                 background-size: 100% 100%, 200% 100%;
-                animation: move 5s infinite;
+                animation: move 3s infinite alternate;
                 background-clip: text;
                 color: transparent;
                 letter-spacing: 2px;
@@ -79,11 +79,23 @@
             border-radius: 3.125rem;
             font-family: "Inter", sans-serif;
             font-size: 1.25rem;
+            position: relative;
+            transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+            &:focus{
+                outline: 0;
+            }
 
             &:hover {
                 cursor: pointer;
                 transform: translateY(-3px);
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
+
+            &:active{
+                background: transparent;
+                border: 2px solid $Blue;
+                color: $Blue;
             }
         }
     }
