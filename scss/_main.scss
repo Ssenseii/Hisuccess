@@ -173,15 +173,17 @@
         font-family: "Open Sans", sans-serif;
 
         &-title {
+            color: #97d6f3;
             font-family: "inter", sans-serif;
-            font-weight: 300;
-            margin-top: 5rem;
-            margin-bottom: 2rem;
+            font-weight: 900;
             font-size: 36px;
+            text-decoration: underline;
+            margin-top: 5rem;
+            margin-bottom: 4rem;
         }
 
         &-description {
-            font-size: 20px;
+            font-size: 24px;
             line-height: 36px;
             padding-right: 16rem;
         }
@@ -214,8 +216,10 @@
         font-family: "Open Sans", sans-serif;
 
         &-title {
+            color: #97d6f3;
             font-family: "inter", sans-serif;
-            font-weight: 300;
+            text-decoration: underline;
+            font-weight: 900;
             margin-top: 5rem;
             margin-bottom: 2rem;
             font-size: 36px;
@@ -256,8 +260,10 @@
         font-family: "Open Sans", sans-serif;
 
         &-title {
+            color: #97d6f3;
             font-family: "inter", sans-serif;
-            font-weight: 300;
+            font-weight: 900;
+            text-decoration: underline;
             margin-top: 5rem;
             margin-bottom: 2rem;
             font-size: 36px;
