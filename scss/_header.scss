@@ -35,7 +35,8 @@
         }
 
         &:active{
-            border: none;
+            border: 1px solid $lightBlue;
+            box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.39) inset;
         }
     }
 

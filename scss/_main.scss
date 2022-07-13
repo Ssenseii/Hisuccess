@@ -121,6 +121,7 @@
 
         &-title {
             font-family: "inter", sans-serif;
+            font-size: 3rem;
             background: linear-gradient(
                 to right,
                 #667db6,
@@ -287,19 +288,16 @@
             padding: 2rem;
 
             &-title {
-                order: 1;
                 font-size: 32px;
                 padding: 0;
             }
 
             &-description {
-                order: 3;
                 font-size: 16px;
                 padding: 1rem;
             }
 
             &-button {
-                order: 2;
                 margin-bottom: 1rem;
             }
         }
@@ -308,7 +306,9 @@
     .section2 {
         display: flex;
         flex-direction: column;
-        padding: 7rem;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
         padding-bottom: 4rem;
 
         &__element {
@@ -316,6 +316,9 @@
             flex-direction: column;
             align-items: center;
             border-left: none;
+
+            width: 40%;
+
             margin-bottom: 2.5rem;
             border-bottom: 1px solid blue;
             padding-bottom: 2.5rem;
@@ -325,6 +328,7 @@
             }
 
             &-title {
+                font-size: 2rem;
                 margin-bottom: 0;
             }
 
@@ -458,3 +462,5 @@
         }
     }
 }
+
+
