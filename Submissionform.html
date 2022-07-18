@@ -85,24 +85,24 @@
         </header>
 
         <!-- main -->
-        <main class="form">
+        <form action="connect.php" method="post">
             <div class="form__side1">
                 <h1 class="form__side1-title">Get In Touch.</h1>
                 <div class="form__side1-element">
-                    <p class="form__side1-element-title">Name</p>
-                    <input type="text" class="form__side1-element-input" />
+                    <p class="form__side1-element-title">Full Name</p>
+                    <input type="text" class="form__side1-element-input" name="fullName" />
                 </div>
                 <div class="form__side1-element">
                     <p class="form__side1-element-title">Email Address</p>
-                    <input type="email" class="form__side1-element-input" />
+                    <input type="email" class="form__side1-element-input" name="email" />
                 </div>
                 <div class="form__side1-element">
                     <p class="form__side1-element-title">Phone Number</p>
-                    <input type="text" class="form__side1-element-input" />
+                    <input type="text" class="form__side1-element-input" name="phone" />
                 </div>
                 <div class="form__side1-element">
                     <p class="form__side1-element-title">Education Level</p>
-                    <input type="text" class="form__side1-element-input" />
+                    <input type="text" class="form__side1-element-input" name="educationLevel" />
                 </div>
             </div>
 
@@ -116,6 +116,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="US" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -123,6 +125,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="GB" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -130,6 +134,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="CA" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -137,6 +143,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="FR" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -144,6 +152,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="PL" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -151,6 +161,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="UA" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -158,6 +170,8 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="TR" 
                         />
                     </div>
                     <div class="form__side2-checkboxes-element">
@@ -165,16 +179,18 @@
                         <input
                             class="form__side2-checkboxes-element-input"
                             type="Checkbox"
+                            name= "country"
+                            value="CN" 
                         />
                     </div>
                 </div>
 
                 <div class="form__side2-major">
                     <p class="form__side2-major-title">What do you want to major in?</p>
-                    <input class="form__side2-major-input" type="text" placeholder="Biology, computer science...">
+                    <input class="form__side2-major-input" type="text" placeholder="Biology, computer science..." name="major">
                 </div>
                 <div class="form__side2-bio">
-                    <p class="form__side2-bio-title">Tell us about yourself:</p>
+                    <p class="form__side2-bio-title">Tell us about yourself: (250 characters max)</p>
                     <!-- <input class="form__side2-bio-input" type="text" placeholder="input here..."> -->
                     <textarea class="form__side2-bio-input" name="bio" id="bio" cols="20" rows="8" placeholder="input here..."></textarea>
                 </div>
@@ -182,6 +198,6 @@
             <div class="form__action">
                 <button class="form__action-button" type="submit">Submit</button>
             </div>
-        </main>
+        </form>
     </body>
 </html>
