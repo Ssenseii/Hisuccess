@@ -277,6 +277,36 @@
     }
 }
 
+.section6{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    
+    &__title{
+        margin: 2rem;
+        margin-bottom: 6rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 48px;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 20rem;
+
+        font-family: "open sans";
+        font-weight: 100;
+        font-size: 20px;
+
+        margin-bottom: 6rem;
+        
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .section1 {
         display: flex;
