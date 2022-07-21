@@ -284,12 +284,15 @@
     align-items: center;
 
     
+    
     &__title{
         margin: 2rem;
         margin-bottom: 6rem;
         font-family: "Open Sans", sans-serif;
         font-weight: 200;
         font-size: 48px;
+        color: #969696;
+
     }
 
     &__list{
@@ -388,7 +391,7 @@
 
         &__text {
             margin: 0;
-            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            background: transparent;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -397,7 +400,7 @@
             padding: 2rem;
             border-radius: 50px;
             font-family: "Open Sans", sans-serif;
-            color: white;
+            color: #000;
 
             &-title {
                 font-family: "inter", sans-serif;
@@ -405,12 +408,15 @@
                 margin-top: 2rem;
                 margin-bottom: 2rem;
                 font-size: 36px;
+
+                color: $Blue;
+                text-decoration: none;
             }
 
             &-description {
                 font-size: 20px;
                 line-height: 36px;
-                padding-right: 0;
+                padding-inline: 8rem;
             }
         }
     }
@@ -429,7 +435,7 @@
 
         &__text {
             margin: 0;
-            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            background: transparent;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -438,20 +444,23 @@
             padding: 2rem;
             border-radius: 50px;
             font-family: "Open Sans", sans-serif;
-            color: white;
+            color: #000;
 
             &-title {
                 font-family: "inter", sans-serif;
                 font-weight: 300;
                 margin-top: 2rem;
-                margin-bottom: 2rem;
+                margin-bottom: 4rem;
                 font-size: 36px;
+
+                color: $Blue;
+                text-decoration: none;
             }
 
             &-description {
                 font-size: 20px;
                 line-height: 36px;
-                padding-right: 0;
+                padding-inline: 8rem;
             }
         }
     }
@@ -470,7 +479,7 @@
 
         &__text {
             margin: 0;
-            background: linear-gradient(to right, #396afc, #2948ff);
+            background: transparent;
 
             display: flex;
             flex-direction: column;
@@ -480,7 +489,7 @@
             padding: 2rem;
             border-radius: 50px;
             font-family: "Open Sans", sans-serif;
-            color: white;
+            color: #000;
 
             &-title {
                 font-family: "inter", sans-serif;
@@ -488,13 +497,27 @@
                 margin-top: 2rem;
                 margin-bottom: 2rem;
                 font-size: 36px;
+
+                color: $Blue;
+                text-decoration: none;
             }
 
             &-description {
                 font-size: 20px;
                 line-height: 36px;
-                padding-right: 0;
+                padding-inline: 8rem;
             }
+        }
+    }
+
+    .section6{
+        &__title{
+            margin-top: 5rem;
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
         }
     }
 }
